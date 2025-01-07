@@ -1,0 +1,1 @@
+This repository demonstrates a subtle type error in TypeScript where type coercion leads to a runtime error that isn't caught at compile time. The `add` function is declared to accept two numbers, but it's called with a number and a string.  The string is coerced to a number, resulting in an unexpected result, but no compiler error.
